@@ -65,7 +65,7 @@ public class Game extends JPanel {
 		while (true) {
 			arkanoidGame.update(drawing);
 			game.repaint();
-			Thread.sleep(15);
+			Thread.sleep(20);
 		}
 	}
 
