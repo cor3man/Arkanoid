@@ -16,7 +16,7 @@ public class Game extends JPanel {
 	private static ArkanoidGame arkanoidGame;
 
 	public Game() {
-		setOpaque(true);
+		setOpaque(false);
 		setFocusable(true);
 	}
 	
